@@ -1,28 +1,29 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "Is this podcast suitable for beginners?",
+answer:
+  "Not really. Spill the English is designed for intermediate and advanced learners. It focuses on real conversations and advanced vocabulary, which might be challenging for beginners.",
+},
+  {
+    question: "How often are new episodes released?",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "We release new episodes every week. You can listen to them on Spotify, Apple Podcasts, Google Podcasts, and other platforms.",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "How should I use the podcast to learn better?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "We recommend listening to each episode twice: once without subtitles to train your ears, and once with the transcript to check pronunciation and vocabulary.",
   },
   {
-    question: "What's your refund policy?",
+    question: "Can I suggest topics or ask questions?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
-  },
-  {
-    question: "How to get support for the product?",
-    answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "Yes! We love hearing from our listeners. You can send us your questions or topic suggestions through our website or social media, and we might include them in future episodes.",
   },
 ];
+
 
 export const FAQ = () => (
   <section className="relative -mt-8 sm:mt-0 pt-12 sm:pt-16 pb-16 bg-blueGray-50 overflow-hidden">

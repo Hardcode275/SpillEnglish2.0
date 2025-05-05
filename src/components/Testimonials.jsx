@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Emma R.",
+    customerTitle: "University Student",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Spill the English helped me improve my listening and pronunciation. I feel more confident speaking with native speakers now.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Carlos G.",
+    customerTitle: "Software Developer",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "I listen to episodes while driving. It’s the perfect way to practice English without interrupting my daily routine. Great content!",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Lina M.",
+    customerTitle: "English Learner (B1)",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "I love how natural and practical the conversations are. The vocabulary sections at the end are super helpful!",
     image: testimonial3,
   },
 ];
@@ -41,7 +41,7 @@ export const Testimonials = () => (
       >
         <div className="block-subtitle text-center mb-6">Testimonials</div>
         <div className="block-big-title text-center mb-20 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People around the world love Spill the English
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
@@ -58,9 +58,9 @@ export const Testimonials = () => (
                 <div>
                   <img
                     src={testimonial.image.src}
-                    alt="Customer avatar"
+                    alt="Listener avatar"
                     width="45px"
-                    height="5px"
+                    height="45px"
                     aria-label={testimonial.customerName}
                   />
                 </div>
@@ -80,3 +80,4 @@ export const Testimonials = () => (
     </div>
   </section>
 );
+

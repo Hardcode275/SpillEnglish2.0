@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/feature5.jpg";
-import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (
@@ -17,16 +15,18 @@ export const Features2 = () => (
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
-                src={feature5.src}
-                alt="Feature image 5"
-                className="rounded-xl  main-border-gray"
+                src={"./src/assets/images/ejercicio.jpg"}
+
+                alt="Podcast learning"
+                className="rounded-xl main-border-gray"
               />
             </div>
-            <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
+            <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded">
               <img
-                src={feature6.src}
-                alt="Feature image 6"
-                className="rounded-xl  main-border-gray"
+                src={"./src/assets/images/workeando.jpg"}
+
+                alt="Mobile listening"
+                className="rounded-xl main-border-gray"
               />
             </div>
           </div>
@@ -34,27 +34,25 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">Make Data-Driven Decisions</span>
+            <span className="block-subtitle">Flexible English Learning</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Issue tracking you’ll enjoy using
+              A podcast made for your lifestyle
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              Whether you’re commuting, exercising, or relaxing, Spill the English fits into your routine. Learn at your pace with flexible episodes tailored for all levels.
             </p>
             <ul className="mb-6 text-primaryText">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>Listen anytime, anywhere</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>Topics that fit real-world situations</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>Perfect for beginners and intermediates</span>
               </li>
             </ul>
           </div>
@@ -63,3 +61,4 @@ export const Features2 = () => (
     </motion.div>
   </section>
 );
+

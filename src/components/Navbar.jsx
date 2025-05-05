@@ -1,7 +1,6 @@
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
@@ -30,10 +29,11 @@ export const Navbar = () => {
           <a href="/#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+              <img src="./src/assets/images/SpillEnglish.jpeg" alt="SpillEnglish Logo" 
+                className="w-10 h-10"  />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                SpillEnglish
               </div>
             </div>
           </a>
@@ -63,18 +63,7 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-              className="text-white main-border-gray rounded-xl
-           bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
-              target="_blank"
-              aria-label="source code"
-            >
-              <GithubIcon />
-              <span className="pt-px">Source code</span>
-            </a>
-          </div>
+          
         </motion.div>
         <div
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-bgDark2"

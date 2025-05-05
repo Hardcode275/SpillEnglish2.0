@@ -98,7 +98,7 @@ export const Footer = () => {
       <div className="bg-bgDark1 py-4 border-t border-gray-700">
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <p className="text-gray-400 text-sm flex items-center justify-center">
-            By Codexfork
+            BY CODEXFORK
             <span className="ml-2 text-yellow-400">⚡</span>
           </p>
         </div>

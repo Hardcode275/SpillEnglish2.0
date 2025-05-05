@@ -26,8 +26,9 @@ export const Brands = () => (
               <li>Apple Podcasts</li>
               <li>Google Podcasts</li>
               <li>Amazon Music</li>
-              <li>Pocket Casts</li>
-              <li>iVoox</li>
+              <li>Deezer</li>
+              <li>Youtube</li>
+              
             </ul>
           </div>
         </div>
